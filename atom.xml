@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>衡锋</title>
-  <subtitle>该写点什么了</subtitle>
+  <subtitle>还是要写点的东西</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hafeyang.github.io/"/>
@@ -9,7 +9,7 @@
   <id>https://hafeyang.github.io/</id>
   
   <author>
-    <name>Hafeyang</name>
+    <name>HafeYang</name>
     
   </author>
   
