@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>衡锋</title>
+  <subtitle>该写点什么了</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://hafeyang.github.io/"/>
+  <updated>2017-03-20T03:11:11.000Z</updated>
+  <id>https://hafeyang.github.io/</id>
+  
+  <author>
+    <name>Hafeyang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>总得有一个篇占位的文章</title>
+    <link href="https://hafeyang.github.io/2017/03/20/kick-off/"/>
+    <id>https://hafeyang.github.io/2017/03/20/kick-off/</id>
+    <published>2017-03-20T03:11:11.000Z</published>
+    <updated>2017-03-20T03:11:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>没有一篇文章hexo 跑起来会报错<br><a id="more"></a></p>
+<p>所以需要先写一篇文章</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;没有一篇文章hexo 跑起来会报错&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="kick-off" scheme="https://hafeyang.github.io/tags/kick-off/"/>
+    
+  </entry>
+  
+</feed>
