@@ -58,7 +58,16 @@
     font-size: 0.875rem !important;
 }
 
-/* Header seal / logo font: use system serif */
+/* ── TOC sidebar: reposition to match wider content ── */
+
+/* Original formula used 896px (old max-w-4xl).
+   Replace with 960px (new 60rem paper width). */
+.toc-sidebar {
+    right: max(1rem, calc((100vw - 960px) / 2 - 220px)) !important;
+}
+
+/* ── Header seal / logo font: use system serif ── */
+
 .font-title {
     font-family:
         'Noto Serif SC',
