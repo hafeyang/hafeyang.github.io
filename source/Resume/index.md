@@ -29,7 +29,7 @@ date: 2026-08-08 23:00:00
 
 **BorderWise AI VAT 合规助手**（React 19 + DeepSeek + Vercel Serverless）
 
-- 从产品构思到上线独立完成：PRD、市场调研（定位 $29-299/mo vs Avalara $1k+/mo）、技术架构及全栈开发。
+- 从产品构思到上线独立完成：PRD、市场调研、技术架构及全栈开发。访问地址：[borderwise.vercel.app](https://borderwise.vercel.app/)
 - React 19 + Vercel Serverless 对话式产品，SSE 流式调用 DeepSeek，每日 IP 限流、会话持久化及 GA 埋点，GitHub Actions 周度欧盟法规爬虫自动更新知识库。
 
 ### 2018.2 ~ 2023.12 深圳店匠科技有限公司 技术专家
