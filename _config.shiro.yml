@@ -1,0 +1,67 @@
+# Shiro Theme Configuration
+# Docs: https://github.com/Acris/hexo-theme-shiro
+
+# Site
+site:
+  favicon: /favicon.svg
+  since: 2017
+  seal: true
+  seal_text: "衡"
+  rss:
+    enabled: true
+    path: /atom.xml
+
+# Navigation menu
+menu:
+  - name: Home
+    url: /
+  - name: Archives
+    url: /archives
+  - name: Categories
+    url: /categories
+  - name: Tags
+    url: /tags
+  - name: About
+    url: /About-Me
+  - name: 简历
+    url: /Resume
+
+# Excerpt
+excerpt:
+  fallback:
+    enabled: true
+    length: 200
+
+# Table of Contents
+toc:
+  enabled: true
+  depth: 3
+  min_headings: 2
+
+# Dark mode
+dark_mode:
+  default: light
+  toggle: true
+
+# Progress bar
+progress_bar:
+  enabled: true
+
+# Back to top
+back_to_top:
+  enabled: true
+
+# Comments (disabled for now)
+comments:
+  enabled: false
+
+# Analytics (Baidu Tongji already embedded via custom head)
+analytics:
+  google:
+    enabled: false
+
+# Site search
+search:
+  enabled: true
+  root_selector: body
+  force_language: zh
