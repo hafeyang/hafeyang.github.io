@@ -5,7 +5,7 @@ date: 2026-08-08 21:43:34
 
 ## 个人基本信息
 
-- **姓名：** 阳衡锋
+- **姓名：** Jobs
 - **电话 / 微信：** 18924626863
 - **Telegram：** [@breakingdev](https://t.me/breakingdev)
 
