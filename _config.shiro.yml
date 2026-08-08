@@ -17,14 +17,8 @@ menu:
     url: /
   - name: Archives
     url: /archives
-  - name: Categories
-    url: /categories
-  - name: Tags
-    url: /tags
   - name: About
     url: /About-Me
-  - name: 简历
-    url: /Resume
 
 # Excerpt
 excerpt:
