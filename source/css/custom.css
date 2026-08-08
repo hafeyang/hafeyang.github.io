@@ -81,9 +81,9 @@
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 18px;
-    margin-top: 20px;
-    padding-top: 16px;
+    gap: 14px;
+    margin-top: 18px;
+    padding-top: 14px;
     border-top: 1px solid var(--color-slate-200, #e2e8f0);
 }
 .social-links a {
@@ -94,7 +94,7 @@
     color: var(--color-seal, #c05b4d);
 }
 .social-icon {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     display: block;
 }
