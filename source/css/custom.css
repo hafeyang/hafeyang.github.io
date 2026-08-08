@@ -4,17 +4,27 @@
 
 /* ── Wider content area ── */
 
-/* Main paper card: max-w-4xl (896px) → 60rem (~960px) */
+/* Main paper card: wider than default 896px */
 .paper {
-    max-width: 60rem !important;
+    max-width: 60rem !important; /* 960px */
 }
 
-/* Post/article prose: let it fill the wider container */
+/* Prose: wider than Tailwind default (~65ch), but not full-width,
+   so the sidebar TOC has room on the right without overlapping text */
 .prose-shiro {
-    max-width: none !important;
+    max-width: 52rem !important; /* 832px — ~30% wider than default */
 }
 
-/* Archive/category/tag page wrappers */
+/* ── TOC sidebar: place to the right of the paper ── */
+.toc-sidebar {
+    right: auto !important;
+    left: min(
+        calc(50% + 30rem + 1.5rem),
+        calc(100vw - 200px - 1rem)
+    ) !important;
+}
+
+/* ── Archive/category/tag page widths ── */
 .mx-auto.max-w-3xl {
     max-width: 56rem !important;
 }
@@ -24,8 +34,7 @@
 
 /* ── Larger, more readable fonts ── */
 
-/* Replace Google Fonts with common system serif for Chinese reading
-   + bump base size to 18px (prose-lg equivalent) */
+/* Replace Google Fonts with system Chinese serif; bump base to 18px */
 .prose-shiro {
     font-family:
         'Noto Serif SC',
@@ -39,12 +48,12 @@
     line-height: 1.85 !important;
 }
 
-/* Headings: keep hierarchy proportional */
+/* Headings: keep proportion */
 .prose-shiro h1 { font-size: 1.875rem !important; }
 .prose-shiro h2 { font-size: 1.5rem !important; }
 .prose-shiro h3 { font-size: 1.25rem !important; }
 
-/* Code blocks: keep monospace at comfortable size */
+/* Code blocks: monospace at comfortable size */
 .prose-shiro code,
 .prose-shiro pre {
     font-family:
@@ -58,22 +67,7 @@
     font-size: 0.875rem !important;
 }
 
-/* ── TOC sidebar: reposition to right of wider paper ── */
-
-/* The sidebar TOC (200px, position:fixed) needs to sit just to the
-   right of the centered 60rem paper card.
-   Using left-based positioning: 50% + 30rem (half paper) + gap.
-   The min() prevents overflow at narrower viewports. */
-.toc-sidebar {
-    right: auto !important;
-    left: min(
-        calc(50% + 30rem + 1.5rem),
-        calc(100vw - 200px - 1.5rem)
-    ) !important;
-}
-
 /* ── Header seal / logo font: use system serif ── */
-
 .font-title {
     font-family:
         'Noto Serif SC',
