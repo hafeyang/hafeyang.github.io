@@ -1,0 +1,69 @@
+/* ─────────────────────────────────────
+   Custom overrides for Shiro theme
+   ───────────────────────────────────── */
+
+/* ── Wider content area ── */
+
+/* Main paper card: max-w-4xl (896px) → 60rem (~960px) */
+.paper {
+    max-width: 60rem !important;
+}
+
+/* Post/article prose: let it fill the wider container */
+.prose-shiro {
+    max-width: none !important;
+}
+
+/* Archive/category/tag page wrappers */
+.mx-auto.max-w-3xl {
+    max-width: 56rem !important;
+}
+.mx-auto.max-w-2xl {
+    max-width: 48rem !important;
+}
+
+/* ── Larger, more readable fonts ── */
+
+/* Replace Google Fonts with common system serif for Chinese reading
+   + bump base size to 18px (prose-lg equivalent) */
+.prose-shiro {
+    font-family:
+        'Noto Serif SC',
+        'Source Han Serif SC',
+        'STSong',
+        'Songti SC',
+        'SimSun',
+        'Georgia',
+        serif !important;
+    font-size: 1.125rem !important;   /* 18px base */
+    line-height: 1.85 !important;
+}
+
+/* Headings: keep hierarchy proportional */
+.prose-shiro h1 { font-size: 1.875rem !important; }
+.prose-shiro h2 { font-size: 1.5rem !important; }
+.prose-shiro h3 { font-size: 1.25rem !important; }
+
+/* Code blocks: keep monospace at comfortable size */
+.prose-shiro code,
+.prose-shiro pre {
+    font-family:
+        'SF Mono',
+        'Fira Code',
+        'Cascadia Code',
+        'Consolas',
+        'Monaco',
+        'Menlo',
+        monospace !important;
+    font-size: 0.875rem !important;
+}
+
+/* Header seal / logo font: use system serif */
+.font-title {
+    font-family:
+        'Noto Serif SC',
+        'STSong',
+        'Songti SC',
+        'Georgia',
+        serif !important;
+}
