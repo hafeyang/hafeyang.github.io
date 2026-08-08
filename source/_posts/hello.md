@@ -1,8 +1,6 @@
 ---
-title: 个人简历
+title: 自我介绍
 date: 2026-08-08 12:00:00
-tags:
-  - 简历
 categories:
   - 个人
 ---
