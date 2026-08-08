@@ -11,17 +11,17 @@ date: 2026-08-08 23:00:00
 
 ## 主要教育及职业经历
 
-### 技术咨询 & 自由职业（2024.03 ~ 今）
+### 全栈开发 & 技术咨询 & 自由职业（2024.03 ~ 今）
 
 独立承接多个全栈 SaaS 产品交付，覆盖跨境电商及 AI 应用领域：
 
-**海味跨境电商 VAT 合规平台**（React 19 + TypeScript + Node.js + MySQL）
+**跨境电商 VAT 合规平台**（React 19 + TypeScript + Node.js + MySQL）
 
 - 从零交付面向欧洲跨境电商卖家的 VAT/EPR 合规管理 SaaS 平台，覆盖多国 VAT 注册、税务申报、自动算税及 EPR 合规全流程，服务数百卖家。
 - 全栈独立负责：React 19 + TanStack + ShadcnUI 管理后台，Koa + Sequelize 后端，阿里云 OSS/OCR 集成，PM2 + Docker 生产部署。
 - 建立版本化数据库迁移及 Playwright E2E 自动化测试体系（90+ 用例），i18n 中英双语支持。
 
-**MetaEcoms 跨境电商广告运营数据中台**（Egg.js + React + Ant Design + K8s）
+**跨境电商广告运营数据中台**（Egg.js + React + Ant Design + K8s）
 
 - 为 Shopify + Meta 广告投放业务搭建数据中台，通过 30+ 定时任务同步 Meta 广告投放数据（多 BM 账户）、Shopify 订单/商品及 WorldFirst 跨境支付流水。
 - 交付 React 后台 Dashboard（ROAS 分析、成本日报、爆品排行），支撑运营团队日常广告投放决策，替代原有手工统计流程。
