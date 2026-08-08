@@ -35,3 +35,12 @@ hexo.extend.filter.register('after_render:html', function (str) {
     // Insert social links right before the footer's closing tag
     return str.replace('</footer>', socialLinksHTML + '\n</footer>');
 });
+
+// Inject noindex meta into resume pages to prevent crawling
+hexo.extend.filter.register('after_render:html', function (str) {
+    // Match canonical URL containing /Resume/ or /Resume-web3/
+    if (/canonical.*href="[^"]*\/(Resume|Resume-web3)\/index\.html"/.test(str)) {
+        return str.replace('<head>', '<head>\n<meta name="robots" content="noindex, nofollow" />');
+    }
+    return str;
+}, 100);

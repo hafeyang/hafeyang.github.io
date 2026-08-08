@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /Resume/
+Disallow: /Resume-web3/
+Disallow: /Resume.pdf
+Disallow: /Resume-web3.pdf
