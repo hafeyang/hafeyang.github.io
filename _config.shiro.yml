@@ -23,10 +23,8 @@ menu:
     url: /tags
   - name: About
     url: /About-Me
-  - name: 简历(Web3)
+  - name: 简历
     url: /Resume
-  - name: 简历(非Web3)
-    url: /Resume-nonweb3
 
 # Excerpt
 excerpt:

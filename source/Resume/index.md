@@ -1,29 +1,36 @@
 ---
 title: 简历
-date: 2026-08-08 21:43:34
+date: 2026-08-08 23:00:00
 ---
 
 ## 自我评价
 
-从 2008 年毕业至今，我一直专注于一线开发和技术管理工作，主要聚焦于 web 开发，尤其是前端开发。国内最早一批 web 前端工程师之一，历经头部互联网公司、创业公司和远程咨询等多种角色，对精益创业、SaaS 和电商领域有深入理解，具备全栈以及 OPC 技术能力，擅长从 0 到 1 组建团队并以低成本高效实现研发目标。
+从 2008 年毕业至今，我一直专注于一线开发和技术管理工作，主要聚焦于 web 开发，尤其是前端开发。国内最早一批 web 前端工程师之一，历经头部互联网公司、创业公司、自由职业和技术咨询等多种角色，对精益创业、SaaS 和跨境电商领域有深入理解，具备全栈及端到端交付能力，擅长从 0 到 1 组建团队并以低成本高效实现研发目标。
 
-近年深耕 Web3 加密资产交易领域，具备完整的 DEX/CEX 交易平台前端交付经验，覆盖现货与永续合约核心链路、WalletConnect/Privy/EIP-712 钱包签名体系及高实时金融系统架构，重视 Token Decimals 等金融数值安全问题。基于 Polymarket SDK 从零搭建预测市场产品，深入理解其订单簿匹配、AMM 定价、条件代币及链上结算机制。积极拥抱 AI 辅助开发，围绕代码审查、调试诊断、任务规划等环节开发了多个 Claude Code Skill，将 AI 深度融入日常开发工作流。
+近年以技术咨询和自由职业身份独立交付了多个全栈 SaaS 产品：跨境电商 VAT/EPR 合规平台（React 19 + Node.js + MySQL，服务数百卖家）、跨境电商广告与运营数据中台（Egg.js + React + Ant Design + K8s，日处理数万订单及广告数据）、以及 AI 驱动的 VAT 合规助手 MVP（DeepSeek + Vercel Serverless，从产品构思到上线）。积极拥抱 AI 辅助开发，围绕代码审查、调试诊断、任务规划等环节自研了多个 Claude Code Skill，将 AI 深度融入日常开发工作流，显著提升交付效率。
 
-## 主要职业教育经历
+## 主要教育及职业经历
 
-### CMC Top 5 DEX 交易所｜高级前端工程师（2024.03 ~ 今）
+### 技术咨询 & 自由职业（2024.03 ~ 今）
 
-**技术栈：** React、TypeScript、React Query、WebSocket、TradingView、EIP-712、Privy、WalletConnect、SSR、Sentry、GitLab CI、ArgoCD、Monorepo
+独立承接多个全栈 SaaS 产品交付，覆盖跨境电商及 AI 应用领域：
 
-- 持续建设现货与永续交易终端，覆盖下单、持仓管理、TPSL、Post-only/GTC、PnL 分享、订单校验、私有 WebSocket 数据同步及 TradingView 快捷交易等核心链路。
-- 推动多账户资产模块重构，将 Perp V1、Perp V2 与 Spot 的充值、提现和内部划转收口至统一模块和提交入口，引入事件驱动弹窗及 EIP-712 签名，并清理多套重复实现。
-- 建设 Web3 钱包与交易签名体系，覆盖 WalletConnect、Privy/MPC Embedded Wallet、现货订单签名、钱包有效性校验、会话恢复、Chain ID 校验及自动切链等异常场景。
-- 完善高实时交易界面的稳定性与可观测性，处理 WebSocket 重连订阅、冗余连接、K 线请求重试、Error Boundary 和 Sentry 异常上报，覆盖交易、钱包、账户及充提关键路径。
-- 推动前端模块化与公共能力沉淀，将历史资金模块迁移至 unified-asset，并在 UIKit 中沉淀响应式 Table、Dialog、Select、NumberInput 等基础组件及配套测试。
-- 参与 SSR/SEO 服务端链路建设，完善 Metadata 数据源、缓存测试、结构化 SSR 日志、活动页服务端渲染及 Skeleton，降低 SSR 与客户端渲染不一致风险。
-- 交付 Trade to Own、Buyback 等复杂活动与数据产品，覆盖奖励流程、排行榜、盲盒、奖池、趋势图、移动端适配、多语言及自动化测试。
-- 基于 Polymarket SDK 从零搭建预测市场产品 Prediction，深入理解 Polymarket CLOB 订单簿、AMM 定价、条件代币（Conditional Tokens）框架及链上结算机制。
-- 完善 GitLab CI、ArgoCD 部署等待、飞书通知及 Sentry Source Map 发布链路，提升前端部署过程的自动化程度和可追踪性。
+**海味跨境电商 VAT 合规平台**（React 19 + TypeScript + Node.js + MySQL）
+
+- 从零交付面向欧洲跨境电商卖家的 VAT/EPR 合规管理 SaaS 平台，覆盖多国 VAT 注册、税务申报、自动算税及 EPR 合规全流程，服务数百卖家。
+- 全栈独立负责：React 19 + TanStack + ShadcnUI 管理后台，Koa + Sequelize 后端，阿里云 OSS/OCR 集成，PM2 + Docker 生产部署。
+- 建立版本化数据库迁移及 Playwright E2E 自动化测试体系（90+ 用例），i18n 中英双语支持。
+
+**MetaEcoms 跨境电商广告运营数据中台**（Egg.js + React + Ant Design + K8s）
+
+- 为 Shopify + Meta 广告投放业务搭建数据中台，通过 30+ 定时任务同步 Meta 广告投放数据（多 BM 账户）、Shopify 订单/商品及 WorldFirst 跨境支付流水。
+- 交付 React 后台 Dashboard（ROAS 分析、成本日报、爆品排行），支撑运营团队日常广告投放决策，替代原有手工统计流程。
+- 搭建 GitHub Actions → 阿里云 ACK（Kubernetes）CI/CD 流水线，dev/prod 双环境自动部署及 SSL 证书管理。
+
+**BorderWise AI VAT 合规助手**（React 19 + DeepSeek + Vercel Serverless）
+
+- 从产品构思到上线独立完成：PRD、市场调研（定位 $29-299/mo vs Avalara $1k+/mo）、技术架构及全栈开发。
+- React 19 + Vercel Serverless 对话式产品，SSE 流式调用 DeepSeek，每日 IP 限流、会话持久化及 GA 埋点，GitHub Actions 周度欧盟法规爬虫自动更新知识库。
 
 ### 2018.2 ~ 2023.12 深圳店匠科技有限公司 技术专家
 
