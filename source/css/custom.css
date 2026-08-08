@@ -58,12 +58,18 @@
     font-size: 0.875rem !important;
 }
 
-/* ── TOC sidebar: reposition to match wider content ── */
+/* ── TOC sidebar: reposition to right of wider paper ── */
 
-/* Original formula used 896px (old max-w-4xl).
-   Replace with 960px (new 60rem paper width). */
+/* The sidebar TOC (200px, position:fixed) needs to sit just to the
+   right of the centered 60rem paper card.
+   Using left-based positioning: 50% + 30rem (half paper) + gap.
+   The min() prevents overflow at narrower viewports. */
 .toc-sidebar {
-    right: max(1rem, calc((100vw - 960px) / 2 - 220px)) !important;
+    right: auto !important;
+    left: min(
+        calc(50% + 30rem + 1.5rem),
+        calc(100vw - 200px - 1.5rem)
+    ) !important;
 }
 
 /* ── Header seal / logo font: use system serif ── */
