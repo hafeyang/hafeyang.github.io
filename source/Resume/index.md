@@ -25,16 +25,6 @@ date: 2026-08-08 21:43:34
 - 基于 Polymarket SDK 从零搭建预测市场产品 Prediction，深入理解 Polymarket CLOB 订单簿、AMM 定价、条件代币（Conditional Tokens）框架及链上结算机制。
 - 完善 GitLab CI、ArgoCD 部署等待、飞书通知及 Sentry Source Map 发布链路，提升前端部署过程的自动化程度和可追踪性。
 
-### 某去中心化衍生品交易所｜前端负责人 & 全栈开发（2026.01 ~ 2026.06）
-
-**技术栈：** React、TypeScript、Rsbuild、Tailwind CSS、Go、gRPC/Protobuf、Kafka、MySQL、DynamoDB、AWS EKS、Kubernetes、GitHub Actions
-
-- 作为前端主要开发者，独立负责交易平台 Web 端核心功能交付，包括 K 线图表系统（保本价线、仓位线、委托指示器、快捷交易）、统计大盘（实时动画组件 + WebSocket 数据推送）、消息中心及移动端适配。
-- 全栈交付推荐返佣系统 V2，前端实现推荐绑定、返佣明细、提现历史等完整流程并支持 6 语言 i18n；后端使用 Go 独立设计并实现返佣 API，Kafka 消费链上交易事件实现返佣自动计算，支持 Replay 模式回放历史数据，MySQL + DynamoDB 混合数据源跨库查询。
-- 从零搭建做市商面板（MMDashboard）子应用，独立于主站部署，包含登录认证、资产仪表盘、自定义 Node.js Server、Rsbuild 构建配置及完整多语言支持。
-- 负责 Go / Java / 前端三类服务的 GitHub Actions CI/CD 流水线及 AWS EKS（Kubernetes）多环境部署清单，完成多个新服务从零到主网的完整部署上线。
-- 主导 Vite → Rsbuild 构建迁移，优化 chunk 分包策略；维护 gRPC 协议定义及 API 网关路由。
-
 ### 2018.2 ~ 2023.12 深圳店匠科技有限公司 技术专家
 
 - 公司首位前端工程师，担任前端技术负责人，负责招聘、培养新人及团队激励
